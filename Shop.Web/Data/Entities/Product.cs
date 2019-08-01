@@ -8,8 +8,8 @@ namespace Shop.Web.Data.Entities
     {
         public int Id { get; set; }
 
-        //[MaxLength(50, ErrorMessage = "The field {0} only can contain {1} characters length.")]
-        //[Required]
+        [MaxLength(50, ErrorMessage = "The field {0} only can contain {1} characters length.")]
+        [Required]
         public string Name { get; set; }
 
         [DisplayFormat(DataFormatString = "{0:C2}", ApplyFormatInEditMode = false)]

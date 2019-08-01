@@ -1251,6 +1251,7 @@ namespace Shop.UIForms.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fill_horizontal = global::Shop.UIForms.Droid.Resource.Id.fill_horizontal;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fill_vertical = global::Shop.UIForms.Droid.Resource.Id.fill_vertical;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.filled = global::Shop.UIForms.Droid.Resource.Id.filled;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.@fixed = global::Shop.UIForms.Droid.Resource.Id.@fixed;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_appbar = global::Shop.UIForms.Droid.Resource.Id.flyoutcontent_appbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_recycler = global::Shop.UIForms.Droid.Resource.Id.flyoutcontent_recycler;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.forever = global::Shop.UIForms.Droid.Resource.Id.forever;
@@ -6456,9 +6457,6 @@ namespace Shop.UIForms.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F08004E
-			public const int @fixed = 2131230798;
-			
 			// aapt resource value: 0x7F080006
 			public const int action0 = 2131230726;
 			
@@ -6680,6 +6678,9 @@ namespace Shop.UIForms.Droid
 			
 			// aapt resource value: 0x7F08004C
 			public const int fill_vertical = 2131230796;
+			
+			// aapt resource value: 0x7F08004E
+			public const int @fixed = 2131230798;
 			
 			// aapt resource value: 0x7F08004F
 			public const int flyoutcontent_appbar = 2131230799;
